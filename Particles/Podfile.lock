@@ -1,0 +1,13 @@
+PODS:
+  - JSONModel (1.2.0)
+  - UIAlertView+Blocks (0.9)
+
+DEPENDENCIES:
+  - JSONModel
+  - UIAlertView+Blocks
+
+SPEC CHECKSUMS:
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+
+COCOAPODS: 0.39.0

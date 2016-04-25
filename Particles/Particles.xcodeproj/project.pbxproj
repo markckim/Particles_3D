@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D13C321C4CC3AFC03271C7F4 /* libPods-Particles.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B7545EE269AF5E31FADDD1 /* libPods-Particles.a */; };
+		FEDF61761CCE00FE00F3C32E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61751CCE00FE00F3C32E /* main.m */; };
+		FEDF61791CCE00FE00F3C32E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61781CCE00FE00F3C32E /* AppDelegate.m */; };
+		FEDF61831CCE00FE00F3C32E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61811CCE00FE00F3C32E /* Main.storyboard */; };
+		FEDF61851CCE00FE00F3C32E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61841CCE00FE00F3C32E /* Assets.xcassets */; };
+		FEDF61881CCE00FE00F3C32E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61861CCE00FE00F3C32E /* LaunchScreen.storyboard */; };
+		FEDF61911CCE01FC00F3C32E /* MAGLKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61901CCE01FC00F3C32E /* MAGLKBaseViewController.m */; };
+		FEDF61941CCE022900F3C32E /* MAGLController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61931CCE022900F3C32E /* MAGLController.m */; };
+		FEDF61971CCE023B00F3C32E /* MAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61961CCE023B00F3C32E /* MAObject.m */; };
+		FEDF619A1CCE024700F3C32E /* MAGLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61991CCE024700F3C32E /* MAGLObject.m */; };
+		FEDF619D1CCE02CC00F3C32E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF619C1CCE02CC00F3C32E /* GameViewController.m */; };
+		FEDF61A01CCE039A00F3C32E /* MAParticleController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF619F1CCE039A00F3C32E /* MAParticleController.m */; };
+		FEDF61A31CCE045F00F3C32E /* MAGLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61A21CCE045F00F3C32E /* MAGLHelper.m */; };
+		FEDF61A51CCE04F100F3C32E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61A41CCE04F100F3C32E /* spark.png */; };
+		FEDF61A81CCE050700F3C32E /* BlueExplosionEmitter.json in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61A61CCE050600F3C32E /* BlueExplosionEmitter.json */; };
+		FEDF61A91CCE050700F3C32E /* RedRotationEmitter.json in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61A71CCE050600F3C32E /* RedRotationEmitter.json */; };
+		FEDF61AB1CCE051A00F3C32E /* EmitterVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61AA1CCE051A00F3C32E /* EmitterVertex.glsl */; };
+		FEDF61AD1CCE063B00F3C32E /* EmitterFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61AC1CCE063B00F3C32E /* EmitterFragment.glsl */; };
+		FEDF61B01CCE074100F3C32E /* MAEmitterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61AF1CCE074100F3C32E /* MAEmitterConfig.m */; };
+		FEDF61B31CCE075000F3C32E /* MAGLEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61B21CCE075000F3C32E /* MAGLEmitter.m */; };
+		FEDF61B61CCE07B100F3C32E /* MAGLRenderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61B51CCE07B100F3C32E /* MAGLRenderObject.m */; };
+		FEDF61B91CCE099000F3C32E /* UIScreen+ScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61B81CCE099000F3C32E /* UIScreen+ScreenSize.m */; };
+		FEDF61BC1CCE0A6000F3C32E /* gl_functions.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61BB1CCE0A6000F3C32E /* gl_functions.m */; };
+		FEDF61BF1CCE0B7800F3C32E /* MAParticleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61BE1CCE0B7800F3C32E /* MAParticleConfig.m */; };
+		FEDF61C21CCE0B8A00F3C32E /* MAGLEmitterShader.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61C11CCE0B8A00F3C32E /* MAGLEmitterShader.m */; };
+		FEDF61C51CCE0B9900F3C32E /* MAGLShader.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61C41CCE0B9900F3C32E /* MAGLShader.m */; };
+		FEDF61C81CCE0C2E00F3C32E /* math_functions.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61C71CCE0C2E00F3C32E /* math_functions.m */; };
+		FEDF61CA1CCE225900F3C32E /* PinkFireworksEmitter.json in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61C91CCE225900F3C32E /* PinkFireworksEmitter.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2506DA7923CC360367509874 /* Pods-Particles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Particles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Particles/Pods-Particles.debug.xcconfig"; sourceTree = "<group>"; };
+		34B7545EE269AF5E31FADDD1 /* libPods-Particles.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Particles.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD80BDC9E192EA0A9A46F706 /* Pods-Particles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Particles.release.xcconfig"; path = "Pods/Target Support Files/Pods-Particles/Pods-Particles.release.xcconfig"; sourceTree = "<group>"; };
+		FEDF61711CCE00FE00F3C32E /* Particles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Particles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDF61751CCE00FE00F3C32E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEDF61771CCE00FE00F3C32E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEDF61781CCE00FE00F3C32E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEDF61821CCE00FE00F3C32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEDF61841CCE00FE00F3C32E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEDF61871CCE00FE00F3C32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEDF61891CCE00FE00F3C32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDF618F1CCE01FC00F3C32E /* MAGLKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGLKBaseViewController.h; sourceTree = "<group>"; };
+		FEDF61901CCE01FC00F3C32E /* MAGLKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGLKBaseViewController.m; sourceTree = "<group>"; };
+		FEDF61921CCE022900F3C32E /* MAGLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGLController.h; sourceTree = "<group>"; };
+		FEDF61931CCE022900F3C32E /* MAGLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGLController.m; sourceTree = "<group>"; };
+		FEDF61951CCE023B00F3C32E /* MAObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAObject.h; sourceTree = "<group>"; };
+		FEDF61961CCE023B00F3C32E /* MAObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAObject.m; sourceTree = "<group>"; };
+		FEDF61981CCE024700F3C32E /* MAGLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGLObject.h; sourceTree = "<group>"; };
+		FEDF61991CCE024700F3C32E /* MAGLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGLObject.m; sourceTree = "<group>"; };
+		FEDF619B1CCE02CC00F3C32E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		FEDF619C1CCE02CC00F3C32E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		FEDF619E1CCE039A00F3C32E /* MAParticleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAParticleController.h; sourceTree = "<group>"; };
+		FEDF619F1CCE039A00F3C32E /* MAParticleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAParticleController.m; sourceTree = "<group>"; };
+		FEDF61A11CCE045F00F3C32E /* MAGLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGLHelper.h; sourceTree = "<group>"; };
+		FEDF61A21CCE045F00F3C32E /* MAGLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGLHelper.m; sourceTree = "<group>"; };
+		FEDF61A41CCE04F100F3C32E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		FEDF61A61CCE050600F3C32E /* BlueExplosionEmitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlueExplosionEmitter.json; sourceTree = "<group>"; };
+		FEDF61A71CCE050600F3C32E /* RedRotationEmitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RedRotationEmitter.json; sourceTree = "<group>"; };
+		FEDF61AA1CCE051A00F3C32E /* EmitterVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EmitterVertex.glsl; sourceTree = "<group>"; };
+		FEDF61AC1CCE063B00F3C32E /* EmitterFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EmitterFragment.glsl; sourceTree = "<group>"; };
+		FEDF61AE1CCE074100F3C32E /* MAEmitterConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAEmitterConfig.h; sourceTree = "<group>"; };
+		FEDF61AF1CCE074100F3C32E /* MAEmitterConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAEmitterConfig.m; sourceTree = "<group>"; };
+		FEDF61B11CCE075000F3C32E /* MAGLEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGLEmitter.h; sourceTree = "<group>"; };
+		FEDF61B21CCE075000F3C32E /* MAGLEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGLEmitter.m; sourceTree = "<group>"; };
+		FEDF61B41CCE07B100F3C32E /* MAGLRenderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGLRenderObject.h; sourceTree = "<group>"; };
+		FEDF61B51CCE07B100F3C32E /* MAGLRenderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGLRenderObject.m; sourceTree = "<group>"; };
+		FEDF61B71CCE099000F3C32E /* UIScreen+ScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+ScreenSize.h"; sourceTree = "<group>"; };
+		FEDF61B81CCE099000F3C32E /* UIScreen+ScreenSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+ScreenSize.m"; sourceTree = "<group>"; };
+		FEDF61BA1CCE0A6000F3C32E /* gl_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl_functions.h; sourceTree = "<group>"; };
+		FEDF61BB1CCE0A6000F3C32E /* gl_functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gl_functions.m; sourceTree = "<group>"; };
+		FEDF61BD1CCE0B7800F3C32E /* MAParticleConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAParticleConfig.h; sourceTree = "<group>"; };
+		FEDF61BE1CCE0B7800F3C32E /* MAParticleConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAParticleConfig.m; sourceTree = "<group>"; };
+		FEDF61C01CCE0B8A00F3C32E /* MAGLEmitterShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGLEmitterShader.h; sourceTree = "<group>"; };
+		FEDF61C11CCE0B8A00F3C32E /* MAGLEmitterShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGLEmitterShader.m; sourceTree = "<group>"; };
+		FEDF61C31CCE0B9900F3C32E /* MAGLShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGLShader.h; sourceTree = "<group>"; };
+		FEDF61C41CCE0B9900F3C32E /* MAGLShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGLShader.m; sourceTree = "<group>"; };
+		FEDF61C61CCE0C2E00F3C32E /* math_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math_functions.h; sourceTree = "<group>"; };
+		FEDF61C71CCE0C2E00F3C32E /* math_functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = math_functions.m; sourceTree = "<group>"; };
+		FEDF61C91CCE225900F3C32E /* PinkFireworksEmitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinkFireworksEmitter.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEDF616E1CCE00FE00F3C32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13C321C4CC3AFC03271C7F4 /* libPods-Particles.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C0774FBBDE0D1F0F119F195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34B7545EE269AF5E31FADDD1 /* libPods-Particles.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62A8793816240B155A67C72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2506DA7923CC360367509874 /* Pods-Particles.debug.xcconfig */,
+				FD80BDC9E192EA0A9A46F706 /* Pods-Particles.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEDF61681CCE00FE00F3C32E = {
+			isa = PBXGroup;
+			children = (
+				FEDF61731CCE00FE00F3C32E /* Particles */,
+				FEDF61721CCE00FE00F3C32E /* Products */,
+				C62A8793816240B155A67C72 /* Pods */,
+				2C0774FBBDE0D1F0F119F195 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEDF61721CCE00FE00F3C32E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEDF61711CCE00FE00F3C32E /* Particles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEDF61731CCE00FE00F3C32E /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				FEDF618F1CCE01FC00F3C32E /* MAGLKBaseViewController.h */,
+				FEDF61901CCE01FC00F3C32E /* MAGLKBaseViewController.m */,
+				FEDF619B1CCE02CC00F3C32E /* GameViewController.h */,
+				FEDF619C1CCE02CC00F3C32E /* GameViewController.m */,
+				FEDF619E1CCE039A00F3C32E /* MAParticleController.h */,
+				FEDF619F1CCE039A00F3C32E /* MAParticleController.m */,
+				FEDF61981CCE024700F3C32E /* MAGLObject.h */,
+				FEDF61991CCE024700F3C32E /* MAGLObject.m */,
+				FEDF61921CCE022900F3C32E /* MAGLController.h */,
+				FEDF61931CCE022900F3C32E /* MAGLController.m */,
+				FEDF61951CCE023B00F3C32E /* MAObject.h */,
+				FEDF61961CCE023B00F3C32E /* MAObject.m */,
+				FEDF61AE1CCE074100F3C32E /* MAEmitterConfig.h */,
+				FEDF61AF1CCE074100F3C32E /* MAEmitterConfig.m */,
+				FEDF61B41CCE07B100F3C32E /* MAGLRenderObject.h */,
+				FEDF61B51CCE07B100F3C32E /* MAGLRenderObject.m */,
+				FEDF61BD1CCE0B7800F3C32E /* MAParticleConfig.h */,
+				FEDF61BE1CCE0B7800F3C32E /* MAParticleConfig.m */,
+				FEDF61C01CCE0B8A00F3C32E /* MAGLEmitterShader.h */,
+				FEDF61C11CCE0B8A00F3C32E /* MAGLEmitterShader.m */,
+				FEDF61B11CCE075000F3C32E /* MAGLEmitter.h */,
+				FEDF61B21CCE075000F3C32E /* MAGLEmitter.m */,
+				FEDF61C31CCE0B9900F3C32E /* MAGLShader.h */,
+				FEDF61C41CCE0B9900F3C32E /* MAGLShader.m */,
+				FEDF61B71CCE099000F3C32E /* UIScreen+ScreenSize.h */,
+				FEDF61B81CCE099000F3C32E /* UIScreen+ScreenSize.m */,
+				FEDF61C61CCE0C2E00F3C32E /* math_functions.h */,
+				FEDF61C71CCE0C2E00F3C32E /* math_functions.m */,
+				FEDF61BA1CCE0A6000F3C32E /* gl_functions.h */,
+				FEDF61BB1CCE0A6000F3C32E /* gl_functions.m */,
+				FEDF61A11CCE045F00F3C32E /* MAGLHelper.h */,
+				FEDF61A21CCE045F00F3C32E /* MAGLHelper.m */,
+				FEDF61AA1CCE051A00F3C32E /* EmitterVertex.glsl */,
+				FEDF61AC1CCE063B00F3C32E /* EmitterFragment.glsl */,
+				FEDF61A61CCE050600F3C32E /* BlueExplosionEmitter.json */,
+				FEDF61A71CCE050600F3C32E /* RedRotationEmitter.json */,
+				FEDF61C91CCE225900F3C32E /* PinkFireworksEmitter.json */,
+				FEDF61A41CCE04F100F3C32E /* spark.png */,
+				FEDF61771CCE00FE00F3C32E /* AppDelegate.h */,
+				FEDF61781CCE00FE00F3C32E /* AppDelegate.m */,
+				FEDF61811CCE00FE00F3C32E /* Main.storyboard */,
+				FEDF61841CCE00FE00F3C32E /* Assets.xcassets */,
+				FEDF61861CCE00FE00F3C32E /* LaunchScreen.storyboard */,
+				FEDF61891CCE00FE00F3C32E /* Info.plist */,
+				FEDF61741CCE00FE00F3C32E /* Supporting Files */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		FEDF61741CCE00FE00F3C32E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDF61751CCE00FE00F3C32E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEDF61701CCE00FE00F3C32E /* Particles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDF618C1CCE00FE00F3C32E /* Build configuration list for PBXNativeTarget "Particles" */;
+			buildPhases = (
+				FD4530D5F68317120E0CFE8C /* Check Pods Manifest.lock */,
+				FEDF616D1CCE00FE00F3C32E /* Sources */,
+				FEDF616E1CCE00FE00F3C32E /* Frameworks */,
+				FEDF616F1CCE00FE00F3C32E /* Resources */,
+				81C9FB5B46100AC65EEFB32C /* Embed Pods Frameworks */,
+				7ABCB6DC80501939E76C6F6E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Particles;
+			productName = Particles;
+			productReference = FEDF61711CCE00FE00F3C32E /* Particles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEDF61691CCE00FE00F3C32E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mark Kim";
+				TargetAttributes = {
+					FEDF61701CCE00FE00F3C32E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FEDF616C1CCE00FE00F3C32E /* Build configuration list for PBXProject "Particles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEDF61681CCE00FE00F3C32E;
+			productRefGroup = FEDF61721CCE00FE00F3C32E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEDF61701CCE00FE00F3C32E /* Particles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEDF616F1CCE00FE00F3C32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDF61A91CCE050700F3C32E /* RedRotationEmitter.json in Resources */,
+				FEDF61CA1CCE225900F3C32E /* PinkFireworksEmitter.json in Resources */,
+				FEDF61831CCE00FE00F3C32E /* Main.storyboard in Resources */,
+				FEDF61AD1CCE063B00F3C32E /* EmitterFragment.glsl in Resources */,
+				FEDF61AB1CCE051A00F3C32E /* EmitterVertex.glsl in Resources */,
+				FEDF61A51CCE04F100F3C32E /* spark.png in Resources */,
+				FEDF61851CCE00FE00F3C32E /* Assets.xcassets in Resources */,
+				FEDF61881CCE00FE00F3C32E /* LaunchScreen.storyboard in Resources */,
+				FEDF61A81CCE050700F3C32E /* BlueExplosionEmitter.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7ABCB6DC80501939E76C6F6E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Particles/Pods-Particles-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81C9FB5B46100AC65EEFB32C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Particles/Pods-Particles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4530D5F68317120E0CFE8C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEDF616D1CCE00FE00F3C32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDF61C21CCE0B8A00F3C32E /* MAGLEmitterShader.m in Sources */,
+				FEDF619A1CCE024700F3C32E /* MAGLObject.m in Sources */,
+				FEDF61BF1CCE0B7800F3C32E /* MAParticleConfig.m in Sources */,
+				FEDF61C81CCE0C2E00F3C32E /* math_functions.m in Sources */,
+				FEDF61971CCE023B00F3C32E /* MAObject.m in Sources */,
+				FEDF61B31CCE075000F3C32E /* MAGLEmitter.m in Sources */,
+				FEDF61B01CCE074100F3C32E /* MAEmitterConfig.m in Sources */,
+				FEDF61B91CCE099000F3C32E /* UIScreen+ScreenSize.m in Sources */,
+				FEDF619D1CCE02CC00F3C32E /* GameViewController.m in Sources */,
+				FEDF61BC1CCE0A6000F3C32E /* gl_functions.m in Sources */,
+				FEDF61791CCE00FE00F3C32E /* AppDelegate.m in Sources */,
+				FEDF61C51CCE0B9900F3C32E /* MAGLShader.m in Sources */,
+				FEDF61911CCE01FC00F3C32E /* MAGLKBaseViewController.m in Sources */,
+				FEDF61941CCE022900F3C32E /* MAGLController.m in Sources */,
+				FEDF61A31CCE045F00F3C32E /* MAGLHelper.m in Sources */,
+				FEDF61B61CCE07B100F3C32E /* MAGLRenderObject.m in Sources */,
+				FEDF61761CCE00FE00F3C32E /* main.m in Sources */,
+				FEDF61A01CCE039A00F3C32E /* MAParticleController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEDF61811CCE00FE00F3C32E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDF61821CCE00FE00F3C32E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEDF61861CCE00FE00F3C32E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDF61871CCE00FE00F3C32E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEDF618A1CCE00FE00F3C32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEDF618B1CCE00FE00F3C32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEDF618D1CCE00FE00F3C32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2506DA7923CC360367509874 /* Pods-Particles.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Particles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScarletGaming.Particles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEDF618E1CCE00FE00F3C32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD80BDC9E192EA0A9A46F706 /* Pods-Particles.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Particles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScarletGaming.Particles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEDF616C1CCE00FE00F3C32E /* Build configuration list for PBXProject "Particles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDF618A1CCE00FE00F3C32E /* Debug */,
+				FEDF618B1CCE00FE00F3C32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDF618C1CCE00FE00F3C32E /* Build configuration list for PBXNativeTarget "Particles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDF618D1CCE00FE00F3C32E /* Debug */,
+				FEDF618E1CCE00FE00F3C32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEDF61691CCE00FE00F3C32E /* Project object */;
+}

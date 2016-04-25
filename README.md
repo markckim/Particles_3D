@@ -1,5 +1,5 @@
 # Particles3D
-A method to prototype 3D particles within Open GL using config files. Config files can be used to create and modify particle behavior for quick testing as well as easily exporting your particle parameters once you are satisfied with testing.
+A method to prototype 3D particles within Open GL using config files. Config files can be used to create and modify particle behavior for quick testing and easily exporting your particle parameters once you are satisfied with your results.
 
 Particle files are in JSON format and are made up of a number of properties which can be modified. Once this JSON file is created, it can be added into the project, and the JSON filename can be added to the `resourceNames` array found in `GameViewController.m` for viewing within the app.
 

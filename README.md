@@ -1,7 +1,7 @@
 # Particles_3D
-A method to prototype 3D particles within Open GL using config files. Config files can be used to create and modify particle behavior for quick testing and easily exporting your particle parameters once you are satisfied with your results.
+A method for prototyping 3D particle effects within Open GL with the use of configuration files. Config files are in JSON format and can be used to quickly create and modify particle behavior as well as easily export your particle parameters once testing is complete.
 
-Particle files are in JSON format and are made up of a number of properties which can be modified. Once this JSON file is created, it can be added into the project, and the JSON filename can be added to the `resourceNames` array found in `GameViewController.m` for viewing within the app.
+The config file is made up of a number of different properties which both affect the particles as well as the emitters of these particles. Once this JSON file is created, it can be added into the project, and the JSON filename can be added to the `resourceNames` array found in `GameViewController.m` which will allow viewing from within the app.
 
 Here is an example of a particle config file:
 ```
@@ -66,6 +66,6 @@ Here is an example of a particle config file:
 }
 ```
 
-Once this JSON file is loaded within the app, it can be selected and viewed within the app. Once the app is open, tapping the screen will create an emitter to show the particle effect in Open GL 3D space. Here is a video showing the results of the above JSON file:
+Once this JSON file is added to the project, it can be selected and viewed from within the app. When the app is open, tapping the screen will create an emitter at the touch location and show the particle effect in Open GL 3D space. Here is a video showing the results of the above JSON file:
 
 [![3D Particle Demo Using Config Files](http://i.imgur.com/AMt1t51.png)](https://www.youtube.com/watch?v=gVkh_agmP7U "3D Particle Demo Using Config Files")

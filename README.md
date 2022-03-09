@@ -7,7 +7,7 @@ Once this JSON file is added to the project, it can be selected and viewed from 
 
 [![3D Particle Demo Using Config Files](http://i.imgur.com/AMt1t51.png)](https://www.youtube.com/watch?v=gVkh_agmP7U "3D Particle Demo Using Config Files")
 
-Here is an example of a particle config file:
+Here is the associated JSON file of the 3D particle effect used in the video above:
 ```
 {
     "birthRate": 4000,

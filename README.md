@@ -69,3 +69,6 @@ Here is the associated JSON file of the 3D particle effect used in the video abo
     "colorRangeB": 0.2,
 }
 ```
+
+Another example of use of particle effects using this framework:
+* https://www.youtube.com/watch?v=tg19CReJQdc

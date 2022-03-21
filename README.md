@@ -70,5 +70,5 @@ Here is the associated JSON file of the 3D particle effect used in the video abo
 }
 ```
 
-Another example of use of particle effects using this framework:
-* https://www.youtube.com/watch?v=tg19CReJQdc
+**Other examples using this framework:**
+* Particles circling around a cylindrical object: https://www.youtube.com/watch?v=tg19CReJQdc

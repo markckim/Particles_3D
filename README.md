@@ -5,7 +5,7 @@ The config file is made up of a number of different properties which both affect
 
 Once this JSON file is added to the project, it can be selected and viewed from within the app. When the app is open, tapping the screen will create an emitter at the touch location and show the particle effect in Open GL 3D space. 
 
-3D Particle Effects:
+3D particle effects:
 
 [![3D Particle Demo Using Config Files](http://i.imgur.com/AMt1t51.png)](https://www.youtube.com/watch?v=gVkh_agmP7U "3D Particle Demo Using Config Files")
 
@@ -72,6 +72,6 @@ Accompanying JSON file:
 }
 ```
 
-3D Particle Effects around a slot machine game prototype:
+3D particle effects around a slot machine game prototype:
 
 [![3D Particle Effects on Slot Machine](https://i.imgur.com/VnXapt6.png)](https://www.youtube.com/watch?v=tg19CReJQdc "3D Particle Effects on Slot Machine")

@@ -72,5 +72,6 @@ Accompanying JSON file:
 }
 ```
 
-**Other examples using this framework:**
-* Particles circling around a cylindrical object: https://www.youtube.com/watch?v=tg19CReJQdc
+3D Particle Effects around a slot machine game prototype:
+
+[![3D Particle Effects on Slot Machine](https://i.imgur.com/VnXapt6.png)](https://www.youtube.com/watch?v=tg19CReJQdc "3D Particle Effects on Slot Machine")

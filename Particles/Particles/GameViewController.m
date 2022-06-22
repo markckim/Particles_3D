@@ -34,10 +34,21 @@
     [super setupControllers];
     
     // set resource names
-    NSArray *resourceNames = @[@"RedRotationEmitter", @"BlueExplosionEmitter", @"PinkFireworksEmitter"];
-    
+    NSArray *resourceNames = @[@"BlueExplosionEmitter",
+                               @"BlueExplosionEmitterNearForceSource",
+                               @"RedRotationXEmitter",
+                               @"RedRotationYEmitter",
+                               @"RainbowFireworksEmitter"];
+
+    // set resource displayed names
+    NSArray *resourceDisplayedNames = @[@"Explosion (constant speed)",
+                                        @"Explosion (outward force)",
+                                        @"X-axis Rotation (inward force)",
+                                        @"Y-axis Rotation (inward force)",
+                                        @"Fireworks (gravity)"];
+
     // set particle controller
-    _particleController = [[MAParticleController alloc] initWithResourceNames:resourceNames];
+    _particleController = [[MAParticleController alloc] initWithResourceNames:resourceNames resourceDisplayedNames:resourceDisplayedNames];
     [_particleController showOptions];
     [self addController:_particleController];
 }

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D13C321C4CC3AFC03271C7F4 /* libPods-Particles.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B7545EE269AF5E31FADDD1 /* libPods-Particles.a */; };
+		FE810CBD286297E200BDDC9E /* spark2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE810CBC286297E100BDDC9E /* spark2.png */; };
+		FE810CC028629B2E00BDDC9E /* BlueExplosionEmitterNearForceSource.json in Resources */ = {isa = PBXBuildFile; fileRef = FE810CBE28629B2E00BDDC9E /* BlueExplosionEmitterNearForceSource.json */; };
+		FE810CC128629B2E00BDDC9E /* BlueExplosionEmitter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE810CBF28629B2E00BDDC9E /* BlueExplosionEmitter.json */; };
+		FE810CC42862A3F000BDDC9E /* RedRotationXEmitter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE810CC22862A3F000BDDC9E /* RedRotationXEmitter.json */; };
+		FE810CC52862A3F000BDDC9E /* RedRotationYEmitter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE810CC32862A3F000BDDC9E /* RedRotationYEmitter.json */; };
 		FEDF61761CCE00FE00F3C32E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61751CCE00FE00F3C32E /* main.m */; };
 		FEDF61791CCE00FE00F3C32E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61781CCE00FE00F3C32E /* AppDelegate.m */; };
 		FEDF61831CCE00FE00F3C32E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61811CCE00FE00F3C32E /* Main.storyboard */; };
@@ -21,8 +26,6 @@
 		FEDF61A01CCE039A00F3C32E /* MAParticleController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF619F1CCE039A00F3C32E /* MAParticleController.m */; };
 		FEDF61A31CCE045F00F3C32E /* MAGLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61A21CCE045F00F3C32E /* MAGLHelper.m */; };
 		FEDF61A51CCE04F100F3C32E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61A41CCE04F100F3C32E /* spark.png */; };
-		FEDF61A81CCE050700F3C32E /* BlueExplosionEmitter.json in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61A61CCE050600F3C32E /* BlueExplosionEmitter.json */; };
-		FEDF61A91CCE050700F3C32E /* RedRotationEmitter.json in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61A71CCE050600F3C32E /* RedRotationEmitter.json */; };
 		FEDF61AB1CCE051A00F3C32E /* EmitterVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61AA1CCE051A00F3C32E /* EmitterVertex.glsl */; };
 		FEDF61AD1CCE063B00F3C32E /* EmitterFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61AC1CCE063B00F3C32E /* EmitterFragment.glsl */; };
 		FEDF61B01CCE074100F3C32E /* MAEmitterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61AF1CCE074100F3C32E /* MAEmitterConfig.m */; };
@@ -34,13 +37,18 @@
 		FEDF61C21CCE0B8A00F3C32E /* MAGLEmitterShader.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61C11CCE0B8A00F3C32E /* MAGLEmitterShader.m */; };
 		FEDF61C51CCE0B9900F3C32E /* MAGLShader.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61C41CCE0B9900F3C32E /* MAGLShader.m */; };
 		FEDF61C81CCE0C2E00F3C32E /* math_functions.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF61C71CCE0C2E00F3C32E /* math_functions.m */; };
-		FEDF61CA1CCE225900F3C32E /* PinkFireworksEmitter.json in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61C91CCE225900F3C32E /* PinkFireworksEmitter.json */; };
+		FEDF61CA1CCE225900F3C32E /* RainbowFireworksEmitter.json in Resources */ = {isa = PBXBuildFile; fileRef = FEDF61C91CCE225900F3C32E /* RainbowFireworksEmitter.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2506DA7923CC360367509874 /* Pods-Particles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Particles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Particles/Pods-Particles.debug.xcconfig"; sourceTree = "<group>"; };
 		34B7545EE269AF5E31FADDD1 /* libPods-Particles.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Particles.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD80BDC9E192EA0A9A46F706 /* Pods-Particles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Particles.release.xcconfig"; path = "Pods/Target Support Files/Pods-Particles/Pods-Particles.release.xcconfig"; sourceTree = "<group>"; };
+		FE810CBC286297E100BDDC9E /* spark2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark2.png; sourceTree = "<group>"; };
+		FE810CBE28629B2E00BDDC9E /* BlueExplosionEmitterNearForceSource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlueExplosionEmitterNearForceSource.json; sourceTree = "<group>"; };
+		FE810CBF28629B2E00BDDC9E /* BlueExplosionEmitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlueExplosionEmitter.json; sourceTree = "<group>"; };
+		FE810CC22862A3F000BDDC9E /* RedRotationXEmitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RedRotationXEmitter.json; sourceTree = "<group>"; };
+		FE810CC32862A3F000BDDC9E /* RedRotationYEmitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RedRotationYEmitter.json; sourceTree = "<group>"; };
 		FEDF61711CCE00FE00F3C32E /* Particles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Particles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDF61751CCE00FE00F3C32E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEDF61771CCE00FE00F3C32E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,8 +72,6 @@
 		FEDF61A11CCE045F00F3C32E /* MAGLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGLHelper.h; sourceTree = "<group>"; };
 		FEDF61A21CCE045F00F3C32E /* MAGLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGLHelper.m; sourceTree = "<group>"; };
 		FEDF61A41CCE04F100F3C32E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
-		FEDF61A61CCE050600F3C32E /* BlueExplosionEmitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlueExplosionEmitter.json; sourceTree = "<group>"; };
-		FEDF61A71CCE050600F3C32E /* RedRotationEmitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RedRotationEmitter.json; sourceTree = "<group>"; };
 		FEDF61AA1CCE051A00F3C32E /* EmitterVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EmitterVertex.glsl; sourceTree = "<group>"; };
 		FEDF61AC1CCE063B00F3C32E /* EmitterFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EmitterFragment.glsl; sourceTree = "<group>"; };
 		FEDF61AE1CCE074100F3C32E /* MAEmitterConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAEmitterConfig.h; sourceTree = "<group>"; };
@@ -86,7 +92,7 @@
 		FEDF61C41CCE0B9900F3C32E /* MAGLShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGLShader.m; sourceTree = "<group>"; };
 		FEDF61C61CCE0C2E00F3C32E /* math_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math_functions.h; sourceTree = "<group>"; };
 		FEDF61C71CCE0C2E00F3C32E /* math_functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = math_functions.m; sourceTree = "<group>"; };
-		FEDF61C91CCE225900F3C32E /* PinkFireworksEmitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinkFireworksEmitter.json; sourceTree = "<group>"; };
+		FEDF61C91CCE225900F3C32E /* RainbowFireworksEmitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RainbowFireworksEmitter.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,10 +179,13 @@
 				FEDF61A21CCE045F00F3C32E /* MAGLHelper.m */,
 				FEDF61AA1CCE051A00F3C32E /* EmitterVertex.glsl */,
 				FEDF61AC1CCE063B00F3C32E /* EmitterFragment.glsl */,
-				FEDF61A61CCE050600F3C32E /* BlueExplosionEmitter.json */,
-				FEDF61A71CCE050600F3C32E /* RedRotationEmitter.json */,
-				FEDF61C91CCE225900F3C32E /* PinkFireworksEmitter.json */,
+				FE810CBF28629B2E00BDDC9E /* BlueExplosionEmitter.json */,
+				FE810CBE28629B2E00BDDC9E /* BlueExplosionEmitterNearForceSource.json */,
+				FE810CC22862A3F000BDDC9E /* RedRotationXEmitter.json */,
+				FE810CC32862A3F000BDDC9E /* RedRotationYEmitter.json */,
+				FEDF61C91CCE225900F3C32E /* RainbowFireworksEmitter.json */,
 				FEDF61A41CCE04F100F3C32E /* spark.png */,
+				FE810CBC286297E100BDDC9E /* spark2.png */,
 				FEDF61771CCE00FE00F3C32E /* AppDelegate.h */,
 				FEDF61781CCE00FE00F3C32E /* AppDelegate.m */,
 				FEDF61811CCE00FE00F3C32E /* Main.storyboard */,
@@ -230,6 +239,7 @@
 				TargetAttributes = {
 					FEDF61701CCE00FE00F3C32E = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Z96U8Z2CE6;
 					};
 				};
 			};
@@ -238,6 +248,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -256,15 +267,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEDF61A91CCE050700F3C32E /* RedRotationEmitter.json in Resources */,
-				FEDF61CA1CCE225900F3C32E /* PinkFireworksEmitter.json in Resources */,
+				FE810CBD286297E200BDDC9E /* spark2.png in Resources */,
+				FE810CC128629B2E00BDDC9E /* BlueExplosionEmitter.json in Resources */,
+				FEDF61CA1CCE225900F3C32E /* RainbowFireworksEmitter.json in Resources */,
 				FEDF61831CCE00FE00F3C32E /* Main.storyboard in Resources */,
 				FEDF61AD1CCE063B00F3C32E /* EmitterFragment.glsl in Resources */,
+				FE810CC028629B2E00BDDC9E /* BlueExplosionEmitterNearForceSource.json in Resources */,
+				FE810CC52862A3F000BDDC9E /* RedRotationYEmitter.json in Resources */,
+				FE810CC42862A3F000BDDC9E /* RedRotationXEmitter.json in Resources */,
 				FEDF61AB1CCE051A00F3C32E /* EmitterVertex.glsl in Resources */,
 				FEDF61A51CCE04F100F3C32E /* spark.png in Resources */,
 				FEDF61851CCE00FE00F3C32E /* Assets.xcassets in Resources */,
 				FEDF61881CCE00FE00F3C32E /* LaunchScreen.storyboard in Resources */,
-				FEDF61A81CCE050700F3C32E /* BlueExplosionEmitter.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +469,7 @@
 			baseConfigurationReference = 2506DA7923CC360367509874 /* Pods-Particles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z96U8Z2CE6;
 				INFOPLIST_FILE = Particles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -468,6 +483,7 @@
 			baseConfigurationReference = FD80BDC9E192EA0A9A46F706 /* Pods-Particles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z96U8Z2CE6;
 				INFOPLIST_FILE = Particles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

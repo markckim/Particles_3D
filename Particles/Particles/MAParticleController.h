@@ -14,6 +14,6 @@
 
 - (void)createParticleWithStartLocation:(CGPoint)startLocation;
 - (void)showOptions;
-- (instancetype)initWithResourceNames:(NSArray *)resourceNames;
+- (instancetype)initWithResourceNames:(NSArray *)resourceNames resourceDisplayedNames:(NSArray *)resourceDisplayedNames;
 
 @end

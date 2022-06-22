@@ -26,6 +26,7 @@
 @property (nonatomic, strong) MAEmitterConfig *selectedConfig;
 @property (nonatomic, strong) NSMutableArray *configs;
 @property (nonatomic, strong) NSMutableArray *resourceNames;
+@property (nonatomic, strong) NSMutableArray *resourceDisplayedNames;
 @property (nonatomic, strong) NSMutableArray *emitters;
 @property (nonatomic, assign) GLuint emitterProgram;
 @property (nonatomic, assign) GLKMatrix4 projectionMatrix;
@@ -103,16 +104,16 @@
         [UIAlertView showWithTitle:@"Menu"
                            message:@"Choose"
                  cancelButtonTitle:@"Cancel"
-                 otherButtonTitles:_resourceNames
+                 otherButtonTitles:_resourceDisplayedNames
                           tapBlock:^(UIAlertView * _Nonnull alertView, NSInteger buttonIndex) {
                               for (int i=0; i<[_resourceNames count]; ++i) {
-                                  NSString *resourceName = _resourceNames[i];
-                                  if ([[alertView buttonTitleAtIndex:buttonIndex] isEqualToString:resourceName]) {
+                                  NSString *resourceDisplayedName = _resourceDisplayedNames[i];
+                                  if ([[alertView buttonTitleAtIndex:buttonIndex] isEqualToString:resourceDisplayedName]) {
                                       MAEmitterConfig *config = _configs[i];
                                       if (config) {
                                           _selectedConfig = config;
                                       } else {
-                                          NSLog(@"error: config unable to be selected with resourceName: %@", resourceName);
+                                          NSLog(@"error: config unable to be selected with resourceDisplayedName: %@", resourceDisplayedName);
                                       }
                                       return;
                                   }
@@ -123,10 +124,12 @@
     }
 }
 
-- (instancetype)initWithResourceNames:(NSArray *)resourceNames
+- (instancetype)initWithResourceNames:(NSArray *)resourceNames resourceDisplayedNames:(NSArray *)resourceDisplayedNames
 {
     if (self = [self init]) {
-        for (NSString *resourceName in resourceNames) {
+        for (int i = 0; i < resourceNames.count; i++) {
+            NSString *resourceName = resourceNames[i];
+            NSString *resourceDisplayedName = resourceDisplayedNames[i];
             NSString *type = @"json";
             NSString *path = [[NSBundle mainBundle] pathForResource:resourceName ofType:type];
             NSString *content = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
@@ -135,6 +138,7 @@
                 config.name = resourceName;
                 [_configs addObject:config];
                 [_resourceNames addObject:resourceName];
+                [_resourceDisplayedNames addObject:resourceDisplayedName];
             } else {
                 NSLog(@"error: something wrong with config with resourceName: %@", resourceName);
             }
@@ -148,6 +152,7 @@
     if (self = [super init]) {
         _configs = [[NSMutableArray alloc] init];
         _resourceNames = [[NSMutableArray alloc] init];
+        _resourceDisplayedNames = [[NSMutableArray alloc] init];
         _emitters = [[NSMutableArray alloc] init];
         _emitterProgram = [MAGLHelper createProgramWithVertexShaderName:@"EmitterVertex" fragmentShaderName:@"EmitterFragment"];
     }

@@ -36,7 +36,7 @@
     "alphaCutoff": 0.5,
     "scale": 1.5,
     "scaleRange": 1,
-    "scaleSpeed": -0.5,
+    "scaleSpeed": -1.5,
     "perspectiveMaxDistance": 20,
     "rotation": 0,
     "rotationRange": 360,
